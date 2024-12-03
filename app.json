@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "suno",
+    "name": "Suno",
     "slug": "suno",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,8 +14,10 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.pawankumar1212.suno"
     },
     "web": {
       "bundler": "metro",
@@ -28,14 +30,18 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#000000"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a8311ac1-e279-4c74-af61-cbb47b443fed"
+      }
     }
   }
 }
